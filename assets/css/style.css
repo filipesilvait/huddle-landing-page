@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 60px;
+}
+
+.btn-header-pink {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1000px;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    background-image: url("/assets/img/bg-hero-desktop.svg");
+    background-size: cover;
+    background-position: center center;
+    background-color: hsl(193, 100%, 96%);
+    padding: 40px 0;
+}
+
+nav {
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
