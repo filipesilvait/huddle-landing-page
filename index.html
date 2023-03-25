@@ -12,8 +12,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1048ef65c3.js" crossorigin="anonymous"></script>
   <title>Huddle landing page with alternating feature blocks</title>
 </head>
+
 <body>
   <header>
     <div class="container">
@@ -31,78 +33,85 @@
           <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
                   Create connections with your users as you engage in genuine discussion.</p>
 
-          <button class="btn btn-header-pink">
+          <button class="btn btn-pink btn-header">
             Get Started For Free
           </button>
         </div>
 
-        <img src="assets/img/illustration-mockups.svg" alt="mockups"/>
+        <div>
+          <img class="header-img" src="assets/img/illustration-mockups.svg" alt="mockups"/>
+        </div>
+
       </div>
     </div>
   </header>
 
   <main>
-    <section>
-      <div class="container">
-        <div class="box flex">
-          <div>
-            <h2>Grow Together</h2>
-            <p>
+    <div class="container">
+      <div class="box flex">
+        <div>
+          <h2>Grow Together</h2>
+          <p>
               Generate meaningful discussions with your audience and build a strong, loyal community.
               Think of the insightful conversations you miss out on with a feedback form.
-            </p>
-          </div>
-          <img src="assets/img/illustration-grow-together.svg" alt="illustration-grow-together"/>
+          </p>
         </div>
 
-        <div class="box flex">
-          <div>
-            <h2>Flowing Conversations</h2>
-            <p>
-              You wouldn't paginate a conversation in real life, so why do it online? Our threads
-            have just-in-time loading for a more natural flow.
-            </p>
-          </div>
+        <div>
+          <img src="assets/img/illustration-grow-together.svg" alt="illustration-grow-together"/>
+        </div>
+      </div>
+
+      <div class="box flex box-reverse-mobile">
+        <div>
           <img src="assets/img/illustration-flowing-conversation.svg" alt="illustration-flowing-conversation"/>
         </div>
 
-        <div class="box flex">
-          <div>
-            <h2>Your Users</h2>
-            <p>
+        <div>
+          <h2>Flowing Conversations</h2>
+          <p>
+              You wouldn't paginate a conversation in real life, so why do it online? Our threads
+            have just-in-time loading for a more natural flow.
+          </p>
+        </div>
+      </div>
+
+      <div class="box flex">
+        <div>
+          <h2>Your Users</h2>
+          <p>
               It takes no time at all to integrate Huddle with your app's authentication solution.
               This means, once signed in to your app, your users can start chatting immediately.
-            </p>
-          </div>
+          </p>
+        </div>
+
+        <div>
           <img src="assets/img/illustration-your-users.svg" alt="illustration your users"/>
         </div>
       </div>
-    </section>
+    </div>
   </main>
 
-  <div class="container">
-    <aside>
+  <div class="container center">
+    <div class="box small-box">
       <h2>Ready To Build Your Community?</h2>
 
-      <button class="btn btn-aside-big">
-        Get Started For Free
+      <button class="btn btn-pink btn-big">
+          Get Started For Free
       </button>
-    </aside>
+    </div>
   </div>
 
   <footer>
     <div class="container">
-        <a href="">
-          <img src="assets/img/logo.svg" alt="logo huddle"/>
-        </a>
+          <img src="assets/img/logo-white.svg" alt="logo huddle"/>
 
-        <div class="flex">
-          <div>
+        <div class="flex align-start">
             <ul>
               <li>
                 <img src="assets/img/icon-location.svg" alt="icon location"/>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
               </li>
               <li>
                 <img src="assets/img/icon-phone.svg" alt="icon phone"/>
@@ -113,70 +122,53 @@
                 example@huddle.com
               </li>
             </ul>
-          </div>
 
-
-          <div class="about">
             <ul>
               <li>
-                <a href="">
                   About Us
-                </a>
               </li>
               <li>
-                <a href="">
                   What We Do
-                </a>
               </li>
               <li>
-                <a href="">
-                  FAQ
-                </a>
+                FAQ
               </li>
             </ul>
-          </div>
 
-          <div class="blog">
             <ul>
               <li>
-                <a href="">
-                  Career
-                </a>
+                Career
               </li>
               <li>
-                <a href="">
-                  Blog
-                </a>
+                Blog
               </li>
               <li>
-                <a href="">
-                  Contact Us
+                Contact Us
+              </li>
+            </ul>
+
+          <div>
+            <ul class="social-media">
+              <li>
+                <a class="circle" href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+
+              <li>
+                <a class="circle" href="#">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+
+              <li>
+                <a class="circle" href="#">
+                  <i class="fa-brands fa-instagram"></i>
                 </a>
               </li>
             </ul>
           </div>
-
-          <div class="social media">
-            <ul>
-              <li>
-                <a href="">
-                  <img src="assets/img/logo-facebook.svg" alt="logo facebook"/>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img src="assets/img/logo-twitter.svg" alt="logo twitter"/>
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  <img src="assets/img/logo-twitter.svg" alt="logo twitter"/>
-                </a>
-              </li>
-            </ul>
-          </div>
-      </div>
-
+        </div>
       <p>
         &copy; Copyright 2018 Huddle. All rights reserved.
       </p>
