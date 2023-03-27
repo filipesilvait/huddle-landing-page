@@ -34,6 +34,10 @@ img {
     margin: 18px;
 }
 
+.btn:hover {
+    opacity: 0.6;
+}
+
 .container {
     padding: 0 20px;
     margin: 0 auto;
@@ -108,6 +112,15 @@ footer ul {
     list-style-type: none;
 }
 
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 footer ul li {
     margin-bottom: 20px;
 }
@@ -129,6 +142,16 @@ footer .circle {
     height: 40px;
     width: 40px;
     text-decoration: none;
+}
+
+footer .circle:hover {
+    background-color: hsl(322, 100%, 66%);
+    transition: 0.3s;
+}
+
+footer p {
+    text-align: right;
+    margin-right: 80px;
 }
 
 @media screen and (max-width: 768px) {
@@ -155,7 +178,7 @@ footer .circle {
     }
 
     footer ul {
-        padding:0;
+        padding: 0;
         width: 100%;
     }
 
