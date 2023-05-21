@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page with alternating feature blocks solution
 
-This is a solution to the [Huddle landing page with alternating feature blocks challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Esta é uma solução para o desafio [Huddle landing page with alternating feature blocks challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100). Frontend Mentor challenges ajuda a melhorar as habilidades praticas com o código, através da criação de projetos realistas.
 
 ## Table of contents
 
@@ -20,10 +20,10 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 
 ### The challenge
 
-Users should be able to:
+Os usuários devem ser capazes de:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+- Visualizar o layout ideal depedendo do tamanho da tela do dispositivo
+- Vizualizar os elementos interativos.
 
 ### Screenshot
 
@@ -31,19 +31,19 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://filipesilvait.github.io/huddle-landing-page/
+- URL do projeto: https://filipesilvait.github.io/huddle-landing-page/
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5 semântico
+- CSS
 - Flexbox
 
 ### What I learned
 
-I learned how to make the page responsive.
+Aprendi como fazer uma página responsiva.
 
 ```css
 @media screen and (max-width: 768px) {
@@ -81,11 +81,11 @@ I learned how to make the page responsive.
 ```
 ### Continued development
 
-I plan to continue learning about HTML and CSS.
+Continuar a aprender HTML e CSS e mais pra frente começar a aprender JavaScript.
 
 ### Useful resources
 
-- [flex - CSS: Cascading Style Sheets | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) - This helped me for Flex reason. I really liked this pattern and will use it going forward.
+- [flex - CSS: Cascading Style Sheets | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) - Me ajudou com o uso do Flex.
 
 ## Author
 
@@ -94,4 +94,4 @@ I plan to continue learning about HTML and CSS.
 
 ## Acknowledgments
 
-[Florin Pop | LinkedIn](https://www.linkedin.com/in/florinpop17/) helped me
+[Florin Pop | LinkedIn](https://www.linkedin.com/in/florinpop17/) me ajudou.
